@@ -1,1 +1,3 @@
-.
+Sounds, videos, etc...
+
+(Subfolders for categorization)
