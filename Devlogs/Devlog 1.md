@@ -8,6 +8,3 @@ Game idea:
 Structure:
 1. The entirety of the game should be inside the Github repo, size shouldn't matter as we shouldn't expect to exceed 2GBs of data. Every file should be located into an appropriate subfolder as to make everything easily accessible to the whole group. [KR7ZY/GameDevCS4043 (github.com)](https://github.com/KR7ZY/GameDevCS4043)
 2. Everyone should personally log every bit of their contributions in some public form, (which you can keep private from the group). The team's devlog history is located in the github subfolder called 'Devlogs'.
-
-Roles:
-1. Robert: I'm good with helping all around and molding everything together, I especially love rigging, modelling, and programming effects.
