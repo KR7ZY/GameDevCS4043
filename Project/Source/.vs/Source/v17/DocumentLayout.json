@@ -1,12 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "K:\\School Projects\\GameDevCS4043\\Project\\Source\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Kenny\\Documents\\School Projects\\GameDevCS4043\\Project\\Source\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9A11237F-ED63-616E-DBDE-C39399B84FC5}|Assembly-CSharp.csproj|c:\\users\\kenny\\documents\\school projects\\gamedevcs4043\\project\\source\\assets\\scripts\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A11237F-ED63-616E-DBDE-C39399B84FC5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Character.cs",
+              "DocumentMoniker": "C:\\Users\\Kenny\\Documents\\School Projects\\GameDevCS4043\\Project\\Source\\Assets\\Scripts\\Character.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character.cs",
+              "ToolTip": "C:\\Users\\Kenny\\Documents\\School Projects\\GameDevCS4043\\Project\\Source\\Assets\\Scripts\\Character.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T17:46:14.232Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
