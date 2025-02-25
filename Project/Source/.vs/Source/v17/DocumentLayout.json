@@ -1,10 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Kenny\\Documents\\School Projects\\GameDevCS4043\\Project\\Source\\",
+  "WorkspaceRootPath": "C:\\Users\\Joban\\Desktop\\GameDevCS4043-main\\GameDevCS4043-main\\Project\\Source\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9A11237F-ED63-616E-DBDE-C39399B84FC5}|Assembly-CSharp.csproj|c:\\users\\kenny\\documents\\school projects\\gamedevcs4043\\project\\source\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A11237F-ED63-616E-DBDE-C39399B84FC5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A11237F-ED63-616E-DBDE-C39399B84FC5}|Assembly-CSharp.csproj|c:\\users\\joban\\desktop\\gamedevcs4043-main\\gamedevcs4043-main\\project\\source\\assets\\keybindingsmanagers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A11237F-ED63-616E-DBDE-C39399B84FC5}|Assembly-CSharp.csproj|solutionrelative:assets\\keybindingsmanagers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A11237F-ED63-616E-DBDE-C39399B84FC5}|Assembly-CSharp.csproj|c:\\users\\joban\\desktop\\gamedevcs4043-main\\gamedevcs4043-main\\project\\source\\assets\\script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A11237F-ED63-616E-DBDE-C39399B84FC5}|Assembly-CSharp.csproj|solutionrelative:assets\\script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A11237F-ED63-616E-DBDE-C39399B84FC5}|Assembly-CSharp.csproj|C:\\Users\\Joban\\Desktop\\GameDevCS4043-main\\GameDevCS4043-main\\Project\\Source\\assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A11237F-ED63-616E-DBDE-C39399B84FC5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Joban\\Desktop\\GameDevCS4043-main\\GameDevCS4043-main\\Project\\Source\\Assets\\Scripts\\Keybindingsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Keybindingsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,15 +31,52 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "C:\\Users\\Kenny\\Documents\\School Projects\\GameDevCS4043\\Project\\Source\\Assets\\Scripts\\PlayerMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
-              "ToolTip": "C:\\Users\\Kenny\\Documents\\School Projects\\GameDevCS4043\\Project\\Source\\Assets\\Scripts\\PlayerMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBQAAAAhAAAAAAAAAA==",
+              "Title": "KeybindingsManagers.cs",
+              "DocumentMoniker": "C:\\Users\\Joban\\Desktop\\GameDevCS4043-main\\GameDevCS4043-main\\Project\\Source\\Assets\\KeybindingsManagers.cs",
+              "RelativeDocumentMoniker": "Assets\\KeybindingsManagers.cs",
+              "ToolTip": "C:\\Users\\Joban\\Desktop\\GameDevCS4043-main\\GameDevCS4043-main\\Project\\Source\\Assets\\KeybindingsManagers.cs",
+              "RelativeToolTip": "Assets\\KeybindingsManagers.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAuwDAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T23:51:46.039Z",
+              "WhenOpened": "2025-02-25T14:29:40.001Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "script.cs",
+              "DocumentMoniker": "C:\\Users\\Joban\\Desktop\\GameDevCS4043-main\\GameDevCS4043-main\\Project\\Source\\Assets\\script.cs",
+              "RelativeDocumentMoniker": "Assets\\script.cs",
+              "ToolTip": "C:\\Users\\Joban\\Desktop\\GameDevCS4043-main\\GameDevCS4043-main\\Project\\Source\\Assets\\script.cs",
+              "RelativeToolTip": "Assets\\script.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T14:21:28.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Keybindingsmanager.cs",
+              "DocumentMoniker": "C:\\Users\\Joban\\Desktop\\GameDevCS4043-main\\GameDevCS4043-main\\Project\\Source\\Assets\\Scripts\\Keybindingsmanager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Keybindingsmanager.cs",
+              "ToolTip": "C:\\Users\\Joban\\Desktop\\GameDevCS4043-main\\GameDevCS4043-main\\Project\\Source\\Assets\\Scripts\\Keybindingsmanager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Keybindingsmanager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T14:20:00.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Joban\\Desktop\\GameDevCS4043-main\\GameDevCS4043-main\\Project\\Source\\Assets\\Scripts\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenu.cs",
+              "ToolTip": "C:\\Users\\Joban\\Desktop\\GameDevCS4043-main\\GameDevCS4043-main\\Project\\Source\\Assets\\Scripts\\MainMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T12:48:41.076Z"
             }
           ]
         }
