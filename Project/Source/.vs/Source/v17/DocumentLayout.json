@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Kenny\\Documents\\School Projects\\GameDevCS4043\\Project\\Source\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9A11237F-ED63-616E-DBDE-C39399B84FC5}|Assembly-CSharp.csproj|c:\\users\\kenny\\documents\\school projects\\gamedevcs4043\\project\\source\\assets\\scripts\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A11237F-ED63-616E-DBDE-C39399B84FC5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A11237F-ED63-616E-DBDE-C39399B84FC5}|Assembly-CSharp.csproj|c:\\users\\kenny\\documents\\school projects\\gamedevcs4043\\project\\source\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A11237F-ED63-616E-DBDE-C39399B84FC5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Character.cs",
-              "DocumentMoniker": "C:\\Users\\Kenny\\Documents\\School Projects\\GameDevCS4043\\Project\\Source\\Assets\\Scripts\\Character.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Character.cs",
-              "ToolTip": "C:\\Users\\Kenny\\Documents\\School Projects\\GameDevCS4043\\Project\\Source\\Assets\\Scripts\\Character.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Character.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\Kenny\\Documents\\School Projects\\GameDevCS4043\\Project\\Source\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\Kenny\\Documents\\School Projects\\GameDevCS4043\\Project\\Source\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBQAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T17:46:14.232Z",
+              "WhenOpened": "2025-02-24T23:51:46.039Z",
               "EditorCaption": ""
             }
           ]
