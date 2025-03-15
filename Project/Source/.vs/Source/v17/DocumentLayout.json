@@ -3,7 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\Kenny\\Documents\\School Projects\\GameDevCS4043\\Project\\Source\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9A11237F-ED63-616E-DBDE-C39399B84FC5}|Assembly-CSharp.csproj|c:\\users\\kenny\\documents\\school projects\\gamedevcs4043\\project\\source\\assets\\scripts\\keybindingsmanagers2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9A11237F-ED63-616E-DBDE-C39399B84FC5}|Assembly-CSharp.csproj|c:\\users\\kenny\\documents\\school projects\\gamedevcs4043\\project\\source\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A11237F-ED63-616E-DBDE-C39399B84FC5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A11237F-ED63-616E-DBDE-C39399B84FC5}|Assembly-CSharp.csproj|c:\\users\\kenny\\documents\\school projects\\gamedevcs4043\\project\\source\\assets\\scripts\\globalmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A11237F-ED63-616E-DBDE-C39399B84FC5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\globalmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A11237F-ED63-616E-DBDE-C39399B84FC5}|Assembly-CSharp.csproj|c:\\users\\kenny\\documents\\school projects\\gamedevcs4043\\project\\source\\assets\\scripts\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A11237F-ED63-616E-DBDE-C39399B84FC5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A11237F-ED63-616E-DBDE-C39399B84FC5}|Assembly-CSharp.csproj|C:\\Users\\Kenny\\Documents\\School Projects\\GameDevCS4043\\Project\\Source\\assets\\scripts\\keybindingsmanagers2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A11237F-ED63-616E-DBDE-C39399B84FC5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\keybindingsmanagers2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -19,6 +31,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\Kenny\\Documents\\School Projects\\GameDevCS4043\\Project\\Source\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\Kenny\\Documents\\School Projects\\GameDevCS4043\\Project\\Source\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAIwCsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T23:26:07.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GlobalMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Kenny\\Documents\\School Projects\\GameDevCS4043\\Project\\Source\\Assets\\Scripts\\GlobalMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GlobalMenu.cs",
+              "ToolTip": "C:\\Users\\Kenny\\Documents\\School Projects\\GameDevCS4043\\Project\\Source\\Assets\\Scripts\\GlobalMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GlobalMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T21:53:45.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\Kenny\\Documents\\School Projects\\GameDevCS4043\\Project\\Source\\Assets\\Scripts\\Menu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Menu.cs",
+              "ToolTip": "C:\\Users\\Kenny\\Documents\\School Projects\\GameDevCS4043\\Project\\Source\\Assets\\Scripts\\Menu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Menu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T21:50:49.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "KeybindingsManagers2.cs",
               "DocumentMoniker": "C:\\Users\\Kenny\\Documents\\School Projects\\GameDevCS4043\\Project\\Source\\Assets\\Scripts\\KeybindingsManagers2.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\KeybindingsManagers2.cs",
@@ -26,8 +77,7 @@
               "RelativeToolTip": "Assets\\Scripts\\KeybindingsManagers2.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAgwB4AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T20:14:13.646Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T20:14:13.646Z"
             }
           ]
         }

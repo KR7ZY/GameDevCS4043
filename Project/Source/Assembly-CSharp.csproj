@@ -64,7 +64,10 @@
     <Compile Include="Assets\Scripts\KeybindingsManagers2.cs" />
     <Compile Include="Assets\Scripts\Settings.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Scripts\GlobalMenu.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Materials\PBR_Grass_Textures\Scripts\CameraFreeflight.cs" />
+    <Compile Include="Assets\Scripts\TransitionScene.cs" />
     <Compile Include="Assets\Scripts\Menu.cs" />
   </ItemGroup>
   <ItemGroup>
