@@ -9,69 +9,55 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     float speed = 10f;
     [SerializeField]
-    float height = 5f;
-
-    int canJump = 0;
-    int jumping = 0;
-    int jumpCount = 0;
-
+    float sprintMultiplier = 1.3f;
     [SerializeField]
-    float jumpTime = 1;
+    float acceleration = 10f;
+    [SerializeField]
+    float deceleration = 10f;
+    [SerializeField]
+    float jumpForce = 5f;
+    [SerializeField]
+    LayerMask groundLayer;
+    [SerializeField]
+    float groundCheckDistance = 0.2f;
 
-    Vector3 vectorOverride = new Vector3(0, 0, 0);
-
-    private void OnCollisionStay(Collision collision)
-    {
-        if (collision.collider.name == "Floor")
-        {
-            canJump = 1;
-            print("A");
-        }
-    }
+    Vector3 movementInput = Vector3.zero;
+    Vector3 currentVelocity = Vector3.zero;
+    Rigidbody rb;
+    Animator animator;
+    bool isGrounded;
 
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+
+        rb = GetComponent<Rigidbody>();
+        rb.constraints = RigidbodyConstraints.FreezeRotation;
+        rb.interpolation = RigidbodyInterpolation.Interpolate; // Enable interpolation for smoother movement
+
+        animator = GetComponent<Animator>(); // Get the Animator component
+    }
+
+    private void Update()
+    {
+        HandleInput();
+        CheckGroundStatus();
     }
 
     private void FixedUpdate()
     {
-        moveRelativeToCamera();
-        jump();
+        MoveRelativeToCamera();
+        RotateToCameraDirection();
+        UpdateAnimator();
     }
 
-    private void jump()
+    private void HandleInput()
     {
-        Rigidbody rb = GetComponent<Rigidbody>();
-        if (Input.GetAxis("Jump") == 1 && canJump == 1)
-        {
-            canJump = 0;
-            jumping = 1;
-        }
-        if (jumping == 1)
-        {
-            if (canJump == 1)
-            {
-                jumping = 0;
-            } else
-            {
-                rb.AddForce(new Vector3(0, height*1000, 0) * Time.deltaTime);
-            }
-        }
-        jumpCount += 1;
-        if (jumpCount >= jumpTime)
-        {
-            jumping = 0;
-            jumpCount = 0;
-        }
-    }
+        float playerVerticalInput = Input.GetAxisRaw("Vertical");
+        float playerHorizontalInput = Input.GetAxisRaw("Horizontal");
+        bool isSprinting = Input.GetKey(KeyCode.LeftShift);
 
-    private void moveRelativeToCamera()
-    {
-        Rigidbody rb = GetComponent<Rigidbody>();
-        float playerVerticalInput = Input.GetAxis("Vertical");
-        float playerHorizontalInput = Input.GetAxis("Horizontal");
         Vector3 forward = CurrentCamera.transform.forward;
         Vector3 right = CurrentCamera.transform.right;
         forward.y = 0;
@@ -80,10 +66,46 @@ public class PlayerMovement : MonoBehaviour
         right = right.normalized;
         Vector3 forwardRelative = forward * playerVerticalInput;
         Vector3 rightRelative = right * playerHorizontalInput;
-        Vector3 relativeMovement = forwardRelative + rightRelative;
-        relativeMovement = relativeMovement.normalized;
-        //this.transform.Translate(relativeMovement* Time.deltaTime * speed, Space.World);
-        rb.AddForce(relativeMovement * Time.deltaTime * (speed*1000) + vectorOverride);
-        vectorOverride = new Vector3(0, 0, 0);
+        movementInput = (forwardRelative + rightRelative).normalized * (isSprinting ? sprintMultiplier : 1f);
+
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        {
+            Jump();
+        }
+    }
+
+    private void MoveRelativeToCamera()
+    {
+        Vector3 targetVelocity = movementInput * speed;
+        currentVelocity = Vector3.Lerp(currentVelocity, targetVelocity, (movementInput == Vector3.zero ? deceleration : acceleration) * Time.fixedDeltaTime);
+        rb.linearVelocity = new Vector3(currentVelocity.x, rb.linearVelocity.y, currentVelocity.z);
+    }
+
+    private void RotateToCameraDirection()
+    {
+        Quaternion targetRotation = Quaternion.LookRotation(new Vector3(CurrentCamera.transform.forward.x, 0, CurrentCamera.transform.forward.z));
+        rb.MoveRotation(Quaternion.Lerp(rb.rotation, targetRotation, Time.fixedDeltaTime * acceleration));
+    }
+
+    private void Jump()
+    {
+        rb.linearVelocity = new Vector3(rb.linearVelocity.x, jumpForce, rb.linearVelocity.z);
+    }
+
+    private void CheckGroundStatus()
+    {
+        Vector3 origin = transform.position + Vector3.up * 0.1f; // Slightly above the player's position
+        isGrounded = Physics.Raycast(origin, Vector3.down, groundCheckDistance + 0.1f, groundLayer);
+
+        // Debug logs and visualization
+        Debug.DrawRay(origin, Vector3.down * (groundCheckDistance + 0.1f), isGrounded ? Color.green : Color.red);
+        Debug.Log("Grounded: " + isGrounded);
+    }
+
+    private void UpdateAnimator()
+    {
+        float speed = movementInput.magnitude * this.speed;
+        animator.SetFloat("Speed", speed);
+        animator.SetBool("IsGrounded", isGrounded);
     }
 }
