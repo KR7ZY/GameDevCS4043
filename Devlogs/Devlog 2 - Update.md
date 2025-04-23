@@ -1,2 +1,0 @@
-All the assets will actually be located within the project/source/assets files.
-The chosen game will be "Rob's Servant" play on the word "R + Observant", as the game is based on being observant, and the character you will be playing is Rob's servant.
