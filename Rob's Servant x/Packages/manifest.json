@@ -1,8 +1,5 @@
 {
   "dependencies": {
-    "com.nickmaltbie.openkcc": "git+https://github.com/nicholas-maltbie/openkcc.git#release/latest",
-    "com.nickmaltbie.screenmanager": "https://github.com/nicholas-maltbie/ScreenManager.git#release/latest",
-    "com.nickmaltbie.statemachineunity": "https://github.com/nicholas-maltbie/StateMachineUnity.git#release/latest",
     "com.nickmaltbie.testutilsunity": "https://github.com/nicholas-maltbie/TestUtilsUnity.git#release/v1.1.0",
     "com.unity.ai.navigation": "2.0.5",
     "com.unity.animation.rigging": "1.3.0",
