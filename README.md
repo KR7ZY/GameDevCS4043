@@ -11,3 +11,6 @@ Organized by Gavin Wade, our professor.
 
 This game does not at this moment contain all the up to date scripts and assets that has been made by each member due to circumstances.
 In time, (pass assesment), everything will be finally compiled and later worked on to make a coherent game.
+
+- Why are the files named "Rob's Servant X" instead of "Rob's Servant"?
+X stands for xtreme, since this game is not for the light. (jk I had two folders called Rob's Servant, so I had to rename it and I didn't change it back).
