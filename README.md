@@ -7,7 +7,7 @@ The sound composer is Alex.
 The project producer is Tuohey.
 The modellers are Jehad, Arick, and Anastasia.
 
-Gavin Wade, our professor.
+Organized by Gavin Wade, our professor.
 
 This game does not at this moment contain all the up to date scripts and assets that has been made by each member due to circumstances.
 In time, (pass assesment), everything will be finally compiled and later worked on to make a coherent game.
